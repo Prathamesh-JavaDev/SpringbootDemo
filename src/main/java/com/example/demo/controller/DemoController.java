@@ -12,4 +12,9 @@ public class DemoController {
     public String sayHello(){
         return "Hello Prathamesh from springboot";
     }
+
+    @GetMapping("/test")
+    public String testFun(){
+        return "This is new feature";
+    }
 }
